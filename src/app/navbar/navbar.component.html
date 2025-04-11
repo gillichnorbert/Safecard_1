@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg" id="navPrimary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://safecard.hu/home">SafeCard</a>
+    <!-- Hamburger gomb -->
+    <button class="hamburger" (click)="toggleNavbar()" [ngClass]="{'active': hamburgerActive}" type="button">
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+    <!-- Navigációs tartalom -->
+    <div class="navbar-collapse" [ngClass]="{'open': isNavbarOpen}" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li *ngFor="let navItem of navItems" class="nav-item">
+          <a class="nav-link"  (click)="toggleNavbar(); navigateto(navItem.path)" >{{ navItem.text }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>Fizetés</h1>
+    <div id="card-element"></div>
+    <button (click)="makePayment()">Fizetés</button>
+    <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+    <p *ngIf="successMessage" class="success">{{ successMessage }}</p>
+  </div>
+  

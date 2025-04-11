@@ -1,0 +1,446 @@
+.content {
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    padding-top: 4vw;
+}
+
+.landing .TrackCard {
+    width: 1rem;
+    display: block;
+    margin:  auto;
+}
+
+.header {
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    padding-bottom: 70px;
+}
+
+.findmybadge {
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.descript h3 {
+    font-size: 5rem;
+    color: #ffffff;
+    /* be kell importálni*/
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 20%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'VolteRounded-Bold';
+    font-size: 4rem;
+    
+}
+
+li {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 20%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'VolteRounded-Bold';
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+ol::marker {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 20%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'VolteRounded-Bold';
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+ol li::marker {
+    color: #957b5e;
+    font-family: 'VolteRounded-Bold';
+    font-weight: bold; /* Félkövér számozás */
+}
+
+.card-list {
+    padding-left: 30px;
+}
+.subtitle {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 20%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'VolteRounded-Bold';
+    font-size: 2.8rem;
+
+    margin-top: 20px;
+    
+}
+
+.header {
+
+    padding-top: 20px;
+
+}
+
+.landing {
+    margin-bottom: 0;
+}
+
+
+/* CARD */
+.card {
+    background-color: #000000;
+    border-radius: 20px;
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    border-width: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    height: 80vh;
+    font-family: 'VolteRounded-Bold';
+    display: flex;
+    overflow: hidden;
+    font-size: 20px;
+    font-style: normal;
+    /* transition: transform 0.4s ease, box-shadow 0.3s ease;*/
+    display: flex;
+    position: sticky;
+    top: 10%;
+    gap: 100px;
+}
+
+.card .trackcard-card, .card .creditcard-card {
+    height:30vh;
+    margin: auto;
+    margin-left: 60px;
+}
+
+.small-trigger {
+
+    height: 10vh;
+}
+
+.card .creditcard-card {
+    z-index: 100;
+}
+.card .trackcard-card {
+    z-index: 0;
+}
+
+
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    padding-top: 40px;
+    padding-bottom: 50px;
+    z-index: 100;
+}
+
+/*.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}*/
+
+.card {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.card p {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 2rem;
+    color: black;
+}
+
+.card img {
+    height: 100vh;
+}
+
+
+.card1pic {
+    height: 100vh;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.card5pic {
+    height: 100vh;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.card1 {
+    width: 20%;
+    display: block;
+}
+
+.card2 {
+    width: 50%;
+    display: block;
+}
+
+.card-text {
+    background: linear-gradient(90deg,#efcdbb,#dab8a4 25%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    background-size: calc(100% - 1px) auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "VolteRounded-Bold";
+}
+
+.card-text-dark {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 50%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 0;
+}
+
+
+
+  
+.animationcont {
+    margin-top: 50px;
+  }
+
+
+  .video-container {
+    
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+
+  .trigger-video {
+    padding: 0;
+    margin-bottom: 70px;
+    margin-left: 170px;
+
+  }
+  
+  video {
+    width: 45vh;
+  }
+  
+  
+  
+
+/* BOTTOM */
+.bottom_section {
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    -webkit-background-clip: border-box; /* A háttér kitöltése teljes területre */
+    background-clip: border-box;
+    font-family: 'VolteRounded-bold';
+    padding-top: 30px;
+}
+
+/* GUIDE */
+.guide_section {
+    /* background-color: rgb(38, 38, 38); */
+    background-color: #000000;
+    height: 23%;
+    border-radius: 20px;
+    
+}
+
+.guide {
+    margin-right: 280px;
+}
+
+.guide p   {
+    height: 80px;
+}
+
+.guide_section h1 {
+    padding: 80px 80px 0px 80px;
+    color: white;
+    font-size: 5rem;
+    font-family: 'VolteRounded-Bold';
+}
+
+.guide_section img {
+    height: 60vh;
+    margin: auto;
+
+}
+
+.guide_section .images {
+    display: flex;
+    flex-wrap: nowrap; /* Ne törje meg a sorokat */
+    overflow-x: auto; /* Vízszintes görgetés engedélyezése */
+    scrollbar-width: thin; /* Opció: görgetősáv stílusának csökkentése */
+    padding-bottom: 40px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.guide_section .images .guide {
+    display: flex; /* Inline-flex az egymás melletti elhelyezkedéshez */
+    flex: 3;
+    flex-direction: column; /* Függőleges elrendezés az egyes elemekben */
+    margin: 0; /* Teljes margó eltávolítása */
+    padding: 5px; /* Minimális belső térköz */
+    min-width: 270px; /* Kisebb szélesség, ha szükséges */
+    gap: 0; /* Ha a gap-et is használnád, állítsd nullára */
+}
+
+
+
+/* NEMTOM */
+.buy {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.buy li {
+    color: black;
+    font-size: 2rem;
+    font-family: 'VolteRounded-Bold';
+    margin-left: 25px;
+}
+.buy img {
+    width: 65%;
+    height: auto;
+}
+
+.buy .card2 {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.buy h1 {
+    color: black;
+}
+
+.buy .card1 {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.buy button {
+    margin-left: 30px;
+
+    width: 200px;
+    height: 70px;
+    font-size: 2rem;
+    display: block;
+}
+
+
+
+.price {
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 2rem;
+    background: linear-gradient(45deg,#efcdbb,#dab8a4 70%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    background-size: calc(100% - 1px) auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.controls {
+    align-items: end;
+}
+
+.control {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 30px;
+    vertical-align:middle;
+}
+
+.price-button {
+    display:inline-block;
+    margin-top: 90px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
+.card1 {
+    width: 50%;
+    display: block;
+}
+
+.card2 {
+    width: 50%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.trackcard-buy {
+    display: none;
+}
+
+.safecard-buy-desktop {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.3rem;
+        margin-top: 20px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .card {
+        width: 95%;
+        height: fit-content;
+    }
+
+    .card-list {
+        padding-left: 5px;
+    }
+
+
+
+
+}

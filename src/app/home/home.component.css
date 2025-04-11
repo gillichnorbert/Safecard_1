@@ -1,0 +1,663 @@
+.content {
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    padding-top: 4vw;
+}
+
+.landing .TrackCard {
+    width: 1rem;
+    display: block;
+    margin:  auto;
+}
+
+.header {
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    padding-bottom: 70px;
+}
+
+.findmybadge {
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.descript h3 {
+    font-size: 5rem;
+    color: #ffffff;
+    /* be kell importálni*/
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 20%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'VolteRounded-Bold';
+    font-size: 5rem;
+    
+}
+
+.header {
+
+    padding-top: 20px;
+
+}
+
+.landing {
+    margin-bottom: 0;
+}
+
+
+/* CARD */
+.card {
+    background-color: #000000;
+    border-radius: 20px;
+    width: 80%;
+    margin: 30px auto;
+    margin-bottom: 30px;
+    border-width: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    height: 80vh;
+    font-family: 'VolteRounded-Bold';
+    display: flex;
+    overflow: hidden;
+    font-size: 20px;
+    font-style: normal;
+    /* transition: transform 0.4s ease, box-shadow 0.3s ease;*/
+    display: flex;
+    position: sticky;
+    top: 10%;
+    gap: 100px;
+}
+
+.card .trackcard-card, .card .creditcard-card {
+    height:30vh;
+    margin: auto;
+    margin-left: 60px;
+}
+
+.small-trigger {
+
+    height: 10vh;
+}
+
+.card .creditcard-card {
+    z-index: 100;
+}
+.card .trackcard-card {
+    z-index: 0;
+}
+
+
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    padding-top: 40px;
+    padding-bottom: 50px;
+    z-index: 100;
+}
+
+/*.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}*/
+
+.card h1 {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.card p {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 2rem;
+    color: black;
+}
+
+.card img {
+    height: 100vh;
+}
+
+
+.card1pic {
+    height: 100vh;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.card5pic {
+    height: 100vh;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.card1 {
+    width: 20%;
+    display: block;
+}
+
+.card2 {
+    width: 50%;
+    display: block;
+}
+
+.card-text {
+    background: linear-gradient(90deg,#efcdbb,#dab8a4 25%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    background-size: calc(100% - 1px) auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "VolteRounded-Bold";
+}
+
+.card-text-dark {
+    background: -webkit-linear-gradient(45deg,#efcdbb,#dab8a4 50%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 0;
+}
+
+
+
+  
+.animationcont {
+    margin-top: 50px;
+  }
+
+
+  .video-container {
+    
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+
+  .trigger-video {
+    padding: 0;
+    margin-bottom: 70px;
+    margin-left: 170px;
+
+  }
+  
+  video {
+    width: 45vh;
+  }
+  
+  
+  
+
+/* BOTTOM */
+.bottom_section {
+    background:radial-gradient(100% 70% at center,#2c201a,#000000);
+    -webkit-background-clip: border-box; /* A háttér kitöltése teljes területre */
+    background-clip: border-box;
+    font-family: 'VolteRounded-bold';
+    padding-top: 30px;
+}
+
+/* GUIDE */
+.guide_section {
+    /* background-color: rgb(38, 38, 38); */
+    background-color: #000000;
+    height: 23%;
+    border-radius: 20px;
+    
+}
+
+.guide {
+    margin-right: 280px;
+}
+
+.guide p   {
+    height: 80px;
+}
+
+.guide_section h1 {
+    padding: 80px 80px 0px 80px;
+    color: white;
+    font-size: 5rem;
+    font-family: 'VolteRounded-Bold';
+}
+
+.guide_section img {
+    height: 60vh;
+    margin: auto;
+
+}
+
+.guide_section .images {
+    display: flex;
+    flex-wrap: nowrap; /* Ne törje meg a sorokat */
+    overflow-x: auto; /* Vízszintes görgetés engedélyezése */
+    scrollbar-width: thin; /* Opció: görgetősáv stílusának csökkentése */
+    padding-bottom: 40px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.guide_section .images .guide {
+    display: flex; /* Inline-flex az egymás melletti elhelyezkedéshez */
+    flex: 3;
+    flex-direction: column; /* Függőleges elrendezés az egyes elemekben */
+    margin: 0; /* Teljes margó eltávolítása */
+    padding: 5px; /* Minimális belső térköz */
+    min-width: 270px; /* Kisebb szélesség, ha szükséges */
+    gap: 0; /* Ha a gap-et is használnád, állítsd nullára */
+}
+
+
+
+/* NEMTOM */
+.buy {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.buy li {
+    color: black;
+    font-size: 2rem;
+    font-family: 'VolteRounded-Bold';
+    margin-left: 25px;
+}
+.buy img {
+    width: 65%;
+    height: auto;
+}
+
+.buy .card2 {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.buy h1 {
+    color: black;
+}
+
+.buy .card1 {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.buy button {
+    margin-left: 30px;
+
+    width: 200px;
+    height: 70px;
+    font-size: 2rem;
+    display: block;
+}
+
+
+
+.price {
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 2rem;
+    background: linear-gradient(45deg,#efcdbb,#dab8a4 70%,#a3735e calc(100% - 5px),rgba(0,0,0,0) calc(100% - 4px));
+    background-size: calc(100% - 1px) auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.controls {
+    align-items: end;
+}
+
+.control {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 30px;
+    vertical-align:middle;
+}
+
+.price-button {
+    display:inline-block;
+    margin-top: 90px;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: block;
+}
+
+.card1 {
+    width: 50%;
+    display: block;
+}
+
+.card2 {
+    width: 50%;
+    display: block;
+}
+
+.trackcard-buy {
+    display: none;
+}
+
+.safecard-buy-desktop {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .landing {
+        margin-top: 3rem;
+    }
+    .findmybadge {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        margin: 0 auto;
+    }
+
+.desktop-only {
+    display: none;
+    z-index: -1;
+}
+    .mobile-only {
+        display: block;
+    }
+
+    .landing .TrackCard {
+        width: 50%;
+        display: block;
+        margin:  auto;
+    }
+    
+    .landing .findmybadge {
+        width: 30%;
+        display: block;
+        margin: 20px auto;
+    
+    }
+
+    .descript h3 {
+        font-size: 3rem;
+    }
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .guide-title {
+        font-size: 2.2rem;
+        padding-top: 90px;
+    }
+
+
+
+    .guide_section {
+        height: 115vh;
+    }
+
+    .guide_section .images {
+        height: 90vh;
+    }
+    .card img {
+    height: 40vh;
+    margin: auto;
+    margin-top: 15%;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .descript h3 {
+        font-size: 3rem;
+    }
+
+    .descript .TrackCard {
+        width: 50rem;
+        margin:  auto;
+    }
+
+    .card {
+        align-items: center;
+        margin: 0 auto;
+        height: 80vh;
+        width: 92%;
+    }
+
+    .card1 {
+        display: block;
+        width: 100%;
+        height: 20%;
+
+    }
+
+    .card1 h1 {
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 2.2rem;
+
+    }
+
+    .card1 p {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: fit-content;
+        font-size: 1rem;
+    }
+
+.custom-carousel {
+    align-items: center;
+}
+
+ngb-carousel {
+    height: fit-content;
+}
+
+.slide, .guide-pic {
+    margin: 0 auto;
+    color: white;
+}
+    
+
+
+
+    .guide_section h1 {
+        text-align: start;
+        margin-left: 20px;
+        padding-left: 0;
+        font-size: 3.2rem;
+        padding-bottom: 20px;
+    }
+
+    .card_container .container {
+        width: 100%;
+    }
+
+    .container img {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        bottom: 0;
+    }
+
+    .guide-pic p {
+        height: 20px;
+    }
+
+    .card-1-pic {
+        width: 80%;
+        height: auto;
+    }
+
+    .card-3-pic {
+        width: 50%;
+        height: auto;
+    }
+    .card-4-pic {
+        width: 35%;
+        height: auto;
+    }
+
+    .card2 {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0;
+
+    }
+
+    .card .trackcard-card, .card .creditcard-card {
+        height:20vh;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .card1pic {
+        width: 10%;
+        height: auto;
+        width: 50%;
+        display: block;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    
+    /* BUY TELEFON */
+    .buy {
+        margin: 0 auto;
+        width: 96%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .buy .card {
+        height: fit-content;
+    }
+    
+    .buy li {
+        color: black;
+        font-size: 2rem;
+        font-family: 'VolteRounded-Bold';
+        margin-left: 25px;
+    }
+    .buy img {
+        width: 65%;
+        height: auto;
+    }
+    
+    
+    .buy h1 {
+        color: black;
+        font-size: 3rem;
+    }
+    
+    .buy .card1 {
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+
+    .trackcard-buy {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .buy button {
+        margin: 0 auto;
+        width: 200px;
+        height: 70px;
+        
+        font-size: 2rem;
+        display: block;
+        border-radius: 40px;
+    }
+    
+    .price {
+        display:inline-block;
+        margin: 0 auto;
+        font-size: 2rem;
+        
+    }
+    
+    .price-button {
+        display:inline-block;
+        margin-top: 90px;
+        padding-bottom: 30px;
+    }
+
+    .mobile-only {
+        text-align: center;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .header {
+        margin-bottom: 0;
+        padding-bottom: 30vh;
+    }
+
+    .header h3 {
+        font-size: 2rem;
+    }
+
+    .header .TrackCard {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 18rem;
+    }
+
+    .header .findmybadge {
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+    
+    }
+
+    .card_container {
+        padding-top: 0;
+    }
+
+    .card {
+
+        height: 80vh;
+    }
+
+
+
+
+}

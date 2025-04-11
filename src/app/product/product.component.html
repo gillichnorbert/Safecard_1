@@ -1,0 +1,285 @@
+<div class="content desktop-only">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="title">SafeCard</h1>
+            </div>
+        </div>
+
+        <div class="row landing ">
+            <div class="picture col-2 desktop-only" >
+                <img class="TrackCard" src="/assets/images/trackcard.png" alt="SafeCard" id="trackcard-image">
+            </div>
+
+            <div class="card col desktop-only">
+                <div class="product-main-block warehouse-open-btn">
+                    <div class="info">
+                        <div class="delivery-info">
+                            <h3>Szállítási idő:</h3>
+                            <div class="delivery-time">
+                                <span class="stock-status text-body-secondary" *ngIf="stockInfo.stock > 0">
+                                    {{ stockInfo.inStockDelivery }}
+                                </span>
+                                <span class="stock-status out text-body-secondary" *ngIf="stockInfo.stock == 0">
+                                    {{ stockInfo.outOfStockDelivery }}
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="rc-summary-price-box">
+                            <div class="rc-price">
+                                <div class="rc-prices-currentprice typography-label">
+                                    <span class="fullprice">8&nbsp;990 Ft </span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="availability-info">
+                            <span class="stock-status-wrapper">
+                                <span class="stock-status" *ngIf="stockInfo.stock > 0">{{ stockInfo.inStock }}</span>
+                                <span class="stock-status out" *ngIf="stockInfo.stock == 0">{{ stockInfo.outOfStock }}</span>
+                            </span>
+                        </div>
+
+                        <button 
+                            (click)="buyButtonClick()" 
+                            class="btn btn-primary" >
+                            Vásárlás
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row details">
+                <h2>Termékinformációk</h2>
+                <div class="line"></div>
+
+                <div class="row info">
+                    <div class="col">
+                        <h3>Méretek</h3>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/safecardsize.png" alt="" style="margin-right: 220px;">
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info">
+                    <div class="col">
+                        <h3>Csatlakoztatási lehetőségek</h3>
+                    </div>
+                    <div class="col">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Bluetooth a közelségalapú kereséshez</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info">
+                    <div class="col">
+                        <h3>Hangszóró</h3>
+                    </div>
+                    <div class="col">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Teljesítménye: Maximum 100 Db</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info">
+                    <div class="col">
+                        <h3>Akkumulátor</h3>
+                    </div>
+                    <div class="col">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Típusa: CR2016</li>
+                            <li role="listitem">Feszültség: 3 V</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info">
+                    <div class="col">
+                        <h3>Rendszer­-követelmények és kompatibilitás</h3>
+                    </div>
+                    <div class="col">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Apple&nbsp;ID</li>
+                            <li role="listitem">iPhone vagy iPod&nbsp;touch iOS&nbsp;14.5-ös vagy újabb rendszerrel</li>
+                            <li role="listitem">iPad iPadOS&nbsp;14.5-ös vagy újabb rendszerrel</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info">
+                    <div class="col">
+                        <h3>A doboz tartalma</h3>
+                    </div>
+                    <div class="col">
+                        <ul class="text-body-secondary">
+                            <li>SafeCard</li>
+                            <li>Csavarhúzó</li>
+                            <li>Dokumentáció</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+
+<!-- MOBIL -->
+
+<div class="content mobile-only">
+    <div class="container" style="margin-bottom: 40px;">
+        <div class="row">
+            <div class="col">
+                <h1 class="title">SafeCard</h1>
+            </div>
+        </div>
+        <div class="row landing ">
+            <div class="picture col-2 desktop-only" >
+                <img class="TrackCard" src="/assets/images/trackcard.png" alt="SafeCard" id="trackcard-image">
+            </div>
+        </div>
+        <!-- mobil -->
+
+        <div class="row landing mobile-only" >
+                <div class="card " id="trackcard-image">
+                    <img class="TrackCard" src="/assets/images/trackcard.png" alt="SafeCard" style="margin: 0 auto; ">
+                </div>
+
+            <div class="card row">
+                <div class="product-main-block warehouse-open-btn">
+                    <div class="info">
+                        <div class="delivery-info">
+                            <h3>Szállítási idő:</h3>
+                            <div class="delivery-time">
+                                <span class="stock-status text-body-secondary" *ngIf="stockInfo.stock > 0">
+                                    {{ stockInfo.inStockDelivery }}
+                                </span>
+                                <span class="stock-status out text-body-secondary" *ngIf="stockInfo.stock == 0">
+                                    {{ stockInfo.outOfStockDelivery }}
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="rc-summary-price-box">
+                            <div class="rc-price">
+                                <div class="rc-prices-currentprice typography-label">
+                                    <span class="fullprice">8&nbsp;990 Ft</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="availability-info">
+                            <span class="stock-status-wrapper">
+                                <span class="stock-status" *ngIf="stockInfo.stock > 0">{{ stockInfo.inStock }}</span>
+                                <span class="stock-status out" *ngIf="stockInfo.stock == 0">{{ stockInfo.outOfStock }}</span>
+                            </span>
+                        </div>
+
+                        <button 
+                            (click)="buyButtonClick()" 
+                            class="btn btn-primary" >
+                            Vásárlás
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row details">
+                <h2>Termékinformációk</h2>
+                <div class="line"></div>
+
+                <div class="row info" >
+                    <div class="row">
+                        <h3>Méretek</h3>
+                    </div>
+                    <div class="row">
+                        <img src="./assets/images/safecardsize.png" alt="" style="margin: 0a uto">
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info" style="text-align: center;">
+                    <div class="row">
+                        <h3>Csatlakoztatási lehetőségek</h3>
+                    </div>
+                    <div class="row">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Bluetooth a közelségalapú kereséshez</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info" style="text-align: center;">
+                    <div class="row">
+                        <h3>Hangszóró</h3>
+                    </div>
+                    <div class="row">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Teljesítménye: Maximum 100 Db</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info" style="text-align: center;">
+                    <div class="row">
+                        <h3>Akkumulátor</h3>
+                    </div>
+                    <div class="row">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Típusa: CR2016</li>
+                            <li role="listitem">Feszültség: 3 V</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+                <div class="row info" style="text-align: center;">
+                    <div class="row">
+                        <h3>Rendszer­-követelmények és kompatibilitás</h3>
+                    </div>
+                    <div class="row">
+                        <ul class="text-body-secondary" role="list">
+                            <li role="listitem">Apple&nbsp;ID</li>
+                            <li role="listitem">iPhone vagy iPod&nbsp;touch iOS&nbsp;14.5-ös vagy újabb rendszerrel</li>
+                            <li role="listitem">iPad iPadOS&nbsp;14.5-ös vagy újabb rendszerrel</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="row info" style="text-align: center;">
+                    <div class="row">
+                        <h3>A doboz tartalma</h3>
+                    </div>
+                    <div class="row">
+                        <ul class="text-body-secondary">
+                            <li>SafeCard</li>
+                            <li>Csavarhúzó</li>
+                            <li>Dokumentáció</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+
+
+
+</div>
